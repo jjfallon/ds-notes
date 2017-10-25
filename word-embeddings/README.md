@@ -42,14 +42,15 @@ Another thing that the Conceptnet Numberbatch embedding does is take into accoun
 
 The associations do not have to be as strong as that shown in this example.
 
-### Creating document / sentence level embeddings
+### Creating document level embeddings
 
+Often we are interested less in similarity betwen individual vectors but between whole chunks of text, be it a sentence, a paragraph, a whole document or ssome other of collections of sequential words. Here these will be referred to generically as _documents_. One approach is to create a vector per document.
 
-* **aggregating word2vec vectors**:
+* **Aggregating word2vec vectors**:
 * **doc2vec**:
-* **skip thought vectors**:
+* **Skip thought vectors**:
 * **sent2vec**: 
 
-An alternative approach that still uses word embeddings is to consider **word mover distance**
+An alternative approach that still uses word embeddings is to consider **word mover distance**.
 
 These word embedding techniques are alternatives to performing techniques such as **Latent Semantic Analysis (LSA)**. LSA is a bag of words approach where the number of times each word in the vocabulary occurs is tabulated. These term frequencies can then be weighted if warranted (such as with TF-IDF) and then singular value decomposition can be performed to reduce the number of dimensions. This would produce a vector for each document, but words with the same meaning would have been treated as separate features. 
