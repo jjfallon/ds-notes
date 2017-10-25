@@ -25,7 +25,7 @@ Alternative, LSA, ..., ...,
 Length of a word2vec vector ....
 
 ### Combining embeddings
-[!equation](https://latex.codecogs.com/svg.latex?x%5Ey)
+![equation](https://latex.codecogs.com/svg.latex?x%5Ey)
 
 
 ### Creating document / sentence level embeddings
