@@ -17,6 +17,22 @@ methods deduce semantic similarity by looking at whether words often appear with
 * **word2vec**:
 * **glove**:
 * **fasttext**: 
+* **Conceptnet Numberbatch**:
+* **sense2vec** 
+
+Alternative, LSA, ..., ...,
+
+Length of a word2vec vector ....
+
+$$
+    W = \begin{pmatrix}
+            - word1 -\\
+            - word2 -\\
+            - word3 -\\
+        \end{pmatrix}
+$$
+### Combining embeddings
+
 
 
 ### Creating document / sentence level embeddings
