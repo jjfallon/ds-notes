@@ -24,9 +24,8 @@ Alternative, LSA, ..., ...,
 
 Length of a word2vec vector ....
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{bmatrix}&space;1.0&space;&&space;0.0&space;&&space;0.5\\&space;0.0&space;&&space;1.0&space;&&space;0.0\\&space;0.5&space;&&space;0.0&space;&&space;1.0&space;\end{bmatrix}&space;\begin{bmatrix}&space;\textrm{...&space;word1&space;...}\\&space;\textrm{...&space;word2&space;...}&space;\\&space;\textrm{...&space;word3&space;...}&space;\end{bmatrix}&space;=&space;\begin{bmatrix}&space;\textrm{...&space;(word1&space;&plus;&space;word3)&space;...}\\&space;\textrm{...&space;word2&space;...}&space;\\&space;\textrm{...&space;(word1&space;&plus;&space;word3)&space;...}&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\begin{bmatrix}&space;1.0&space;&&space;0.0&space;&&space;0.5\\&space;0.0&space;&&space;1.0&space;&&space;0.0\\&space;0.5&space;&&space;0.0&space;&&space;1.0&space;\end{bmatrix}&space;\begin{bmatrix}&space;\textrm{...&space;word1&space;...}\\&space;\textrm{...&space;word2&space;...}&space;\\&space;\textrm{...&space;word3&space;...}&space;\end{bmatrix}&space;=&space;\begin{bmatrix}&space;\textrm{...&space;(word1&space;&plus;&space;word3)&space;...}\\&space;\textrm{...&space;word2&space;...}&space;\\&space;\textrm{...&space;(word1&space;&plus;&space;word3)&space;...}&space;\end{bmatrix}" title="\begin{bmatrix} 1.0 & 0.0 & 0.5\\ 0.0 & 1.0 & 0.0\\ 0.5 & 0.0 & 1.0 \end{bmatrix} \begin{bmatrix} \textrm{... word1 ...}\\ \textrm{... word2 ...} \\ \textrm{... word3 ...} \end{bmatrix} = \begin{bmatrix} \textrm{... (word1 + word3) ...}\\ \textrm{... word2 ...} \\ \textrm{... (word1 + word3) ...} \end{bmatrix}" /></a>
 ### Combining embeddings
-
+[!equation](https://latex.codecogs.com/svg.latex?x%5Ey)
 
 
 ### Creating document / sentence level embeddings
